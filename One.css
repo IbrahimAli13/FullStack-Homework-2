@@ -1,0 +1,148 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Adjust the shadow properties as desired */
+    width: 1000px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    color: rgb(70, 53, 224);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: white;
+    text-align: right;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  .navbar li a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+  }
+  .navbar li a.call-us {
+    color: white;
+  }
+  
+  .call-us {
+    background-color: rgb(70, 53, 224);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  .call-us i {
+    margin-right: 5px;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    fill: rgb(70, 53, 224);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 20%
+  }
+  
+  .text-container {
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 60%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+  }
+  .text-container .text {
+    flex: 1;
+  }
+  
+  .highlight {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .purple {
+    color: rgb(70, 53, 224);
+  }
+  
+  .button-container {
+    text-align: left;
+    margin-right: 90%;
+    margin-bottom: 0;
+  }
+  
+  .call-button {
+    background-color: rgb(70, 53, 224);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+ .call-button i {
+    margin-right: 5px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+    margin-left: 0;
+  }
+  
+  .image-container img {
+    max-width: 400px;
+    height: 200px;
+  }
+
+  
